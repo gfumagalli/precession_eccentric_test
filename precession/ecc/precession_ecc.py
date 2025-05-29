@@ -1065,7 +1065,7 @@ def inspiral_orbav(theta1=None, theta2=None, deltaphi=None, Lh=None, S1h=None, S
     return outcome
 def test():
     """
-    Test function to check if the module is working correctly.
+    Test function to check if the module is working correctly.e
     """
     print("Precession module is working correctly.")
     # You can add more tests here if needed.
