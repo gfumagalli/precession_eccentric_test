@@ -1063,11 +1063,11 @@ def inspiral_orbav(theta1=None, theta2=None, deltaphi=None, Lh=None, S1h=None, S
             outcome[k] = np.atleast_2d(outcome[k])
 
     return outcome
-def test():
+def tesat():
     """
     Test function to check if the module is working correctly.e
     """
     print("Precession module is working correctly.")
     # You can add more tests here if needed.
-all_fun=functions+['eval_a', 'eval_e', 'ddchidt_prefactor', 'vectors_to_conserved', 'inspiral_precav','rhs_orbav', 'integrator_orbav', 'inspiral_orbav','test' ]
+all_fun=functions+['eval_a', 'eval_e', 'ddchidt_prefactor', 'vectors_to_conserved', 'inspiral_precav','rhs_orbav', 'integrator_orbav', 'inspiral_orbav','tesat' ]
 __all__ = all_fun
